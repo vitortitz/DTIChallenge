@@ -22,7 +22,16 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 ### Execução HeadLess ###
 ```npm run test```
 
+Caso seja do seu interesse, criar um vídeo do teste realizado. Adicione ```video:true``` no arquivo cypress.config.ts, seguindo o exemplo da imagem seguinte.
+
+<p align="center">
+  <img src="https://github.com/vitortitz/DTIChallenge/assets/65320384/2de8958b-2572-4a11-b513-01a72e32ae37" >
+</p>
+
+
+
 ### Execução Ambiente Dev ###
+
 ```npx cypress open```
 
 ## 🛠️ Construído com

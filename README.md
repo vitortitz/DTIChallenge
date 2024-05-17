@@ -25,10 +25,10 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 Caso seja do seu interesse, criar um vídeo do teste realizado. Adicione ```video:true``` no arquivo cypress.config.ts, seguindo o exemplo da imagem seguinte.
 
 <p align="center">
-  <img src="https://github.com/vitortitz/DTIChallenge/assets/65320384/2de8958b-2572-4a11-b513-01a72e32ae37" >
+  <img src="https://github.com/vitortitz/DTIChallenge/assets/65320384/3ee0a2b4-d5cf-4fad-8167-e65cc4e91220" >
 </p>
 
-
+O video será salvo na pasta _cypress/videos_
 
 ### Execução Ambiente Dev ###
 

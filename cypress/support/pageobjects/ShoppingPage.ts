@@ -5,7 +5,7 @@ import ProductGrid from "../helper/ProductGrid";
 import comparePrice from "../helper/PriceProducts";
 import NameOrder from "../helper/NameOrder";
 import RefOrder from "../helper/RefOrder";
-import SearchValidate from "../helper/searchValidate";
+import SearchValidate from "../helper/SearchValidate";
 const shoppingElements = new ShoppingElements();
 let sortingOptions: {
     priceLowest: string;

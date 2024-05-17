@@ -52,5 +52,4 @@ export default defineConfig({
     specPattern: "cypress/integration/*.feature",
     setupNodeEvents,
   },
-
 });

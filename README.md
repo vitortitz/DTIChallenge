@@ -24,8 +24,10 @@ Instalar [Node.js](https://nodejs.org/en/download/)
 * Faça o clone do projeto
 * Execute o comando ```npm install```
 
-## ⚙️ Executando os testes
+### ⚙️ Executando os testes ###
 
+## Headless Execution ##
+```npm run cy:run```
 * Para executar os testes, após realizar o ```npm install```, basta enviar em seu console ```npm run test```.
 
 ## 🛠️ Construído com

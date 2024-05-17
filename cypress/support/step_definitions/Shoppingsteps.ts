@@ -5,7 +5,6 @@ const shoppingPage = new ShoppingPage();
 
 When('Click in Women`s menu', () => {
     shoppingPage.clickWomenMenuButton()
-    shoppingPage.searchDressinSearchBox()
 })
 
 When('Select Price: Lowest First', () => {

@@ -71,7 +71,7 @@ Feature: Shopping
         And select the composition propertie, selected the product, and check if it`s match
         Then go back product page
 
-    //in this scenario, when the user search for dress, some items that shows, it`s a blouse and a shirt, needing to fix it.
+    #in this scenario, when the user search for dress, some items that shows, it`s a blouse and a shirt, needing to fix it.
     Scenario: Check if the filtered propertie items match the selected filter.
         Given access the automationpractice website
         When search for dress

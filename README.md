@@ -14,7 +14,7 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 |Cypress        |  [![Cypress.io tests](https://img.shields.io/badge/cypress.io-tests-green.svg?style=flat-square)](https://cypress.io)|
 |Version        | [![npm version](https://badge.fury.io/js/cypress.svg)](https://badge.fury.io/js/cypress)|
 |Cucumber       | [![Cucumber.io BDD](https://img.shields.io/badge/Cucumber-BDD-green?logo=cucumber
-)](https://cucumber.io)|
+)(https://cucumber.io)]|
 
 ### 📋 Pré-requisitos
 

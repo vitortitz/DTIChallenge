@@ -7,6 +7,12 @@ Este projeto consiste na criação e automação de cenários de teste frontend 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
 Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
+## About ##
+
+| Service       | Status  |
+| ------------- |---------|
+|Cypress        |  [![Cypress.io tests](https://img.shields.io/badge/cypress.io-tests-green.svg?style=flat-square)](https://cypress.io)|
+|Version        | [![npm version](https://badge.fury.io/js/cypress.svg)](https://badge.fury.io/js/cypress)|
 
 ### 📋 Pré-requisitos
 

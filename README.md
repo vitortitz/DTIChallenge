@@ -6,34 +6,30 @@ Este projeto consiste na criação e automação de cenários de teste frontend 
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
-## About ##
+### 📋 Pré-requisitos
+
+* **Instalar [Google Chrome](https://www.google.com/chrome/dr/download/)**
+
+* **Instalar [Node.js](https://nodejs.org/en/download/)**
+
+### 🔧 Instalação
+
+* **Faça o clone do projeto**
+* **Execute o comando ```npm install``` no diretório raiz do projeto**
+
+## ⚙️ Executando os testes ##
+
+### Execução HeadLess ###
+```npm run test```
+
+### Execução Ambiente Dev ###
+```npx cypress open```
+
+## 🛠️ Construído com
 
 | Service       | Status  |
 | ------------- |---------|
 |Cypress        |  [![Cypress.io tests](https://img.shields.io/badge/cypress.io-tests-green.svg?style=flat-square)](https://cypress.io)|
-|Version        | [![npm version](https://badge.fury.io/js/cypress.svg)](https://badge.fury.io/js/cypress)|
+|Node.js        | [![npm version](https://badge.fury.io/js/cypress.svg)](https://badge.fury.io/js/cypress)|
 |Cucumber       | [![Cucumber.io bdd](https://img.shields.io/badge/Cucumber-BDD-green?logo=cucumber)](https://cucumber.io)|
-
-### 📋 Pré-requisitos
-
-Instalar [Node.js](https://nodejs.org/en/download/)
-
-### 🔧 Instalação
-
-* Faça o clone do projeto
-* Execute o comando ```npm install```
-
-### ⚙️ Executando os testes ###
-
-## Headless Execution ##
-```npm run cy:run```
-* Para executar os testes, após realizar o ```npm install```, basta enviar em seu console ```npm run test```.
-
-## 🛠️ Construído com
-
-Mencione as ferramentas que você usou para criar seu projeto
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
+|TypeScript       | [![typescriptlang.org backend](https://img.shields.io/badge/TypeScript-BackEnd-green?logo=typescript)](https://www.typescriptlang.org/)|

@@ -1,5 +1,5 @@
 Feature: Login
-    I as a user would like to register and manage my account
+  I as a user would like to register and manage my account
 
   Scenario: Create Account successfully
     Given access the automationpractice website
@@ -69,8 +69,8 @@ Feature: Login
     Given authenticated user
     When access to edit Registration tab and change my password, using differents password and confirmation
     Then verify danger alert
-    #In this scenario, an improvement to be made, is to leave the new password and confirmation fields as required fields, since you are changing password without entering a new one.
-
+  #In this scenario, an improvement to be made is to make the new password and confirmation fields required since you're changing the password without entering a new one.
+  #Neste cenário, uma melhoria a ser feita é tornar os novos campos de senha e confirmação obrigatórios, já que você está alterando a senha sem inserir uma nova.
   Scenario: Block change account password with new password and confirmation both empty
     Given authenticated user
     When access the edit Registration tab and change my password, leaving the new password and confirmation both empty

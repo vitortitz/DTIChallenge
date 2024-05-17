@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --browser chrome --no-exit"
+    "test": "cypress run --browser chrome "
   },
   "cypress-cucumber-preprocessor": {
     "step_definitions": "cypress/support/step_definitions"
@@ -16,9 +16,7 @@
     "@cypress/webpack-preprocessor": "latest",
     "cypress": "latest",
     "ts-loader": "latest",
-    "typescript": "latest"
-  },
-  "devDependencies": {
+    "typescript": "latest",
     "@faker-js/faker": "^8.4.1"
   }
 }

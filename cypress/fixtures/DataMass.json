@@ -1,0 +1,20 @@
+{
+  "priceLowest": "Price: Lowest first",
+  "priceHighest": "Price: Highest first",
+  "productAsc": "Product Name: A to Z",
+  "productDesc": "Product Name: Z to A",
+  "inStock": "In stock",
+  "refLowest": "Reference: Lowest first",
+  "refHighest": "Reference: Highest first",
+  "materialCotton": "Cotton",
+  "materialPolyester": "Polyester",
+  "materialViscose": "Viscose",
+  "colorfulDress": "Colorful Dress",
+  "maxiDress": "Maxi Dress",
+  "midiDress": "Midi Dress",
+  "shortDress": "Short Dress",
+  "shortSleeve": "Short Sleeve",
+  "casualStyle": "Casual",
+  "dressyStyle": "Dressy",
+  "girlyStyle": "Girly"
+}

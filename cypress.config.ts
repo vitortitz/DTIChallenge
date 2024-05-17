@@ -51,7 +51,6 @@ export default defineConfig({
     baseUrl: "http://www.automationpractice.pl/",
     specPattern: "cypress/integration/*.feature",
     setupNodeEvents,
-
   },
 
 });

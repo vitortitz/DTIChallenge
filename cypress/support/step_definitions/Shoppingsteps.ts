@@ -5,7 +5,7 @@ const shoppingPage = new ShoppingPage();
 
 When('Click in Women`s menu', () => {
     shoppingPage.clickWomenMenuButton()
-    shoppingPage.compareCompostion()
+    shoppingPage.searchDressinSearchBox()
 })
 
 When('Select Price: Lowest First', () => {
@@ -67,6 +67,7 @@ Then('Validate if it shows the product in Reference: Highest first', () => {
 
 When('select an outfit and check if it`s in stock, if not change the size abd check again, if it`s in stock,  i can add to cart', () => {
     shoppingPage.checkStockAndIfAddToCart()
+
 })
 
 Then('i can continue shopping', () => {
@@ -88,5 +89,13 @@ When('select the composition propertie, selected the product, and check if it`s 
 
 Then('go back product page', () => {
     shoppingPage.clickWomenMenuButton()
+})
+
+When('search for dress', () => {
+    shoppingPage.searchDressinSearchBox()
+})
+
+Then('validate if it`s all dress', () => {
+    shoppingPage.checkIfIsAllDress()
 })
 

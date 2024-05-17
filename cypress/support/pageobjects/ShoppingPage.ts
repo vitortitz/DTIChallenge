@@ -5,6 +5,7 @@ import ProductGrid from "../helper/ProductGrid";
 import comparePrice from "../helper/PriceProducts";
 import NameOrder from "../helper/NameOrder";
 import RefOrder from "../helper/RefOrder";
+import SearchValidate from "../helper/searchValidate";
 const shoppingElements = new ShoppingElements();
 let sortingOptions: {
     priceLowest: string;
@@ -187,6 +188,15 @@ class ShoppingPage {
             cy.get(currentValue).click()
             ProductGrid(shoppingElements, styles, index1, shoppingElements.descriptionStyle(), currentValue)
         })
+    }
+
+    searchDressinSearchBox(): void {
+        cy.get(shoppingElements.searchBox()).type('dress')
+        cy.get(shoppingElements.buttonSeach()).click()
+    }
+
+    checkIfIsAllDress(): void {
+        SearchValidate(shoppingElements, 'dress')
     }
 }
 

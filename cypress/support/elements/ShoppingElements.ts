@@ -1,5 +1,6 @@
 class ShoppingElements {
     buttonWomemMenu = (): string => { return '.sf-menu > :nth-child(1) > [href="http://www.automationpractice.pl/index.php?id_category=3&controller=category"]' }
+    buttonSeach = (): string => { return '#searchbox > .btn' }
 
     menuSortBy = (): string => { return '#selectProductSort' }
     avaliability = (): string => { return '.availability' }
@@ -32,9 +33,5 @@ class ShoppingElements {
     dressyCheck = (): string => { return '#layered_id_feature_16' }
     girlyCheck = (): string => { return '#layered_id_feature_13' }
     searchBox = (): string => { return '#search_query_top' }
-
-
-
-
 }
 export default ShoppingElements;
